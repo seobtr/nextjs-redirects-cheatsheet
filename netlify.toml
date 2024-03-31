@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/ingrown-toenail/"
+  to = "/blog/ingrown-toenail"
+  status = 301
+
+[[rewrites]]
+  source = "/ingrown-toenail/"
+  destination = "/blog/ingrown-toenail"

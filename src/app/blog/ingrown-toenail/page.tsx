@@ -2,15 +2,14 @@ import Image from 'next/image'
 import styles from '../page.module.css'
 import Link from "next/link";
 
-export default function Rewrite() {
+export default function ingrownToenail() {
     return (
         <main className={styles.main}>
             <div className={styles.description}>
                 <Link className={styles.button} href={'/home'}>Home</Link>
                 <Link className={styles.button} href={'/redirect'}>Redirect</Link>
-                <Link className={styles.button} href={'/blog/ingrown-toenail'}>Ingrown Toenail</Link>
                 <h1>
-                    You were rewrited to this page.
+                    Ingrown Toenail
                 </h1>
                 <div>
                     <a
